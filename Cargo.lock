@@ -56,10 +56,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "cmder"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d3715487c00eec6eeb41f7fb672ebd2567b5ad8f48cfe67eaec37b5469980d58"
+dependencies = [
+ "termcolor",
+]
+
+[[package]]
 name = "coursify"
 version = "0.1.0"
 dependencies = [
  "clap",
+ "cmder",
  "figlet-rs",
  "serde",
  "serde_json",
