@@ -57,9 +57,9 @@ dependencies = [
 
 [[package]]
 name = "cmder"
-version = "0.3.0"
+version = "0.5.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d3715487c00eec6eeb41f7fb672ebd2567b5ad8f48cfe67eaec37b5469980d58"
+checksum = "165c8e44b844c9c1337efb7c0fbfe807f0d381192f816d70d162f20f84e0d870"
 dependencies = [
  "termcolor",
 ]
