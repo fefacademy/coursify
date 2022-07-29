@@ -4,3 +4,4 @@ Cargo.lock
 #contrived
 TODO.*
 node_modules/
+content/
