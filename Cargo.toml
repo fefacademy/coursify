@@ -6,8 +6,8 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [lib]
-name = "coursify"
-path = "src/lib/mod.rs"
+name = "coursify_util"
+crate-type = ["cdylib", "rlib"]
 
 [dependencies]
 clap = { version = "3.0.14", features = ["derive"] }
@@ -16,3 +16,8 @@ serde = {version= "1", features = ["derive"]}
 serde_json = "1"
 termcolor = "1.1"
 cmder = "0.5.2"
+directories = "4.0.1"
+walkdir = "2.3.2"
+ffmpeg_cmdline_utils = "0.1.1"
+# ffmpeg4-ffi = "0.3.8"
+ffmpeg-next = "5.0.3"
